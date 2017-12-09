@@ -20,6 +20,9 @@ public class Cliente {
 		catch (ClassNotFoundException e) {
 			
 			
+			
+			
+			
 			throw new RuntimeException(e);
 		}
 	}
@@ -27,6 +30,9 @@ public class Cliente {
 	public Cliente(){
 
 	}
+	
+	//cliente com id nome fone email:
+	
 
 
 	public Cliente(int id, String nome, String fone, String email) {
