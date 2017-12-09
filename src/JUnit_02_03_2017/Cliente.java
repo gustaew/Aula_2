@@ -14,8 +14,12 @@ public class Cliente {
 
 	static {
 		try {
+			 
 			Class.forName("com.mysql.jdbc.Driver");
-		} catch (ClassNotFoundException e) {
+		} 
+		catch (ClassNotFoundException e) {
+			
+			
 			throw new RuntimeException(e);
 		}
 	}
